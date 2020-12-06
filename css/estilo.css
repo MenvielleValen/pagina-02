@@ -70,7 +70,6 @@ header{
     align-items: center;
     box-shadow: 0 0 6px rgba(0,0,0,.5);
     
-
 }
 
 .menu-nav a{
@@ -231,7 +230,10 @@ header{
 
 /* -------------- COMUNICATE CON NOSOTROS ----------------*/
 
-
+.contactanos{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
 .icon-container{
     display: flex;
@@ -252,13 +254,13 @@ header{
 
 }
 .instagram:hover{
-    filter: drop-shadow(1px 5px 4px #ff94a6);
+    filter: drop-shadow(1px 5px 4px #8c61af);
 }
 .facebook:hover{
     filter: drop-shadow(1px 5px 4px #949fff);
 }
 .wsp:hover{
-    filter: drop-shadow(1px 5px 4px #94ffab);
+    filter: drop-shadow(1px 5px 4px #75d68a);
 }
 
 
@@ -317,7 +319,8 @@ footer{
         right: 0;
         width: 50vw;
         height: 100%;
-        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background-image: linear-gradient(to top, rgba(0, 197, 251, 1) 0%, rgba(0, 90, 234, 1) 100%);
+        /*background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -360,6 +363,13 @@ footer{
     }
     .selection-content a{
         font-size: 15px;
+    }
+    .agregar-imagen{
+        object-fit: cover;
+        width: 85%;
+        height: 85%;
+        border-radius: 10px;
+        
     }
 
 }
