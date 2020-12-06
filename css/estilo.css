@@ -353,7 +353,12 @@ footer{
         font-size: 20px;
     }
     .img-galeria{
-        width: 95%;
+        width: 60%;
+        object-fit: cover;
+        display: block;
+        margin-top: 20px;
+        box-shadow: 0 0 6px rgba(0,0 ,0,.5 );
+        cursor: pointer;
     }
     .more i{
         font-size: 90px;
