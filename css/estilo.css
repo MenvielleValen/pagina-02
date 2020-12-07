@@ -297,6 +297,10 @@ footer{
 
 
 @media screen and (max-width:1080px){
+    header{
+        object-fit: cover;
+        background-image: linear-gradient(to right, hsla(206, 7%, 56%, 0.479) 0%, rgba(89, 97, 100, 0.479) 100%),url(../img/web-design.jpg);
+    }
     .hamburger{
         
         visibility: visible;
@@ -347,13 +351,14 @@ footer{
     }
     .img-quienes{
         height:300px;
-         width: 300px;
+        width: 300px;
     }
     .copy{
         font-size: 20px;
     }
     .img-galeria{
         width: 60%;
+        height: 60%;
         object-fit: cover;
         display: block;
         margin-top: 20px;
@@ -376,5 +381,6 @@ footer{
         border-radius: 10px;
         
     }
+
 
 }
