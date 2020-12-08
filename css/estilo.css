@@ -322,7 +322,8 @@ footer{
 
 @media screen and (max-width:1080px){
     header{
-        object-fit: cover;
+        object-fit: contain;
+        
         background-image: linear-gradient(to right, hsla(298, 100%, 74%, 0.479) 0%, rgba(89, 97, 100, 0.479) 100%),url(../img/web-design.jpg);
         background-position: center;
         background-size: cover;
@@ -398,6 +399,15 @@ footer{
         width: 90px;
         height: 90px;
         
+    }
+    .instagram:hover{
+        filter: none;
+    }
+    .facebook:hover{
+        filter: none
+    }
+    .wsp:hover{
+        filter: none;
     }
     .selection-content a{
         font-size: 15px;
