@@ -323,7 +323,9 @@ footer{
 @media screen and (max-width:1080px){
     header{
         object-fit: cover;
-        background-image: linear-gradient(to right, hsla(206, 100%, 65%, 0.479) 0%, rgba(89, 97, 100, 0.479) 100%),url(../img/web-design.jpg);
+        background-image: linear-gradient(to right, hsla(298, 100%, 74%, 0.479) 0%, rgba(89, 97, 100, 0.479) 100%),url(../img/web-design.jpg);
+        background-position: center;
+        background-size: cover;
     }
     .hamburger{
         
@@ -381,16 +383,20 @@ footer{
         font-size: 20px;
     }
     .img-galeria{
-        width: 60%;
-       
+        width: 200px;
+       height: 200px;
        
        
     }
     .more i{
         font-size: 90px;
     }
+    .more i:hover{
+        font-size: 90px;
+    }
     .ico{
-        width: 80%;
+        width: 90px;
+        height: 90px;
         
     }
     .selection-content a{
@@ -404,8 +410,8 @@ footer{
         
     }
     .img-galeria-video{
-        width: 60%;
-        object-fit: cover;
+        width: 200px;
+        height: 200px;
         display: block;
         margin-top: 20px;
         box-shadow: 0 0 6px rgba(0,0 ,0,.5 );
