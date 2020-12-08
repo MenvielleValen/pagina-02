@@ -36,7 +36,7 @@ facebook.addEventListener('click',()=>{
     window.open("http://facebook.com"); 
 } )
 wsp.addEventListener('click',()=>{
-    window.open("https://api.whatsapp.com/send?phone=2216685701"); 
+    window.open("https://api.whatsapp.com/send?phone=+542216685701"); 
 } )
 
 
