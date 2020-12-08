@@ -322,8 +322,8 @@ footer{
 
 @media screen and (max-width:1080px){
     header{
-        object-fit: contain;
         
+        object-fit: scale-down;
         background-image: linear-gradient(to right, hsla(298, 100%, 74%, 0.479) 0%, rgba(89, 97, 100, 0.479) 100%),url(../img/web-design.jpg);
         background-position: center;
         background-size: cover;
